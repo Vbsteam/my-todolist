@@ -70,7 +70,7 @@ public class Signpage extends AppCompatActivity {
         userPassword = (EditText)findViewById(R.id.password1);
         userEmail = (EditText)findViewById(R.id.email1);
         regButton = (Button)findViewById(R.id.button1);
-        userLogin = (TextView)findViewById(R.id.text1);
+        userLogin = (TextView)findViewById(R.id.text);
     }
 
     private Boolean validate() {
